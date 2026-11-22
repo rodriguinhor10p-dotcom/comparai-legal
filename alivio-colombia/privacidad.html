@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Alivio Colombia — Política de Privacidad</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@700;800&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+<style>
+/* VOICE: formal, calm legal notice from a consumer-protection app.
+   IDEA: a well-set official notice, like a printed policy leaflet.
+   PICTURE: the Alivio "A + check" mark in a navy header band.
+   COLOUR and TYPE: brand navy #1A3A5C, blue #2563A8, white ground; Plus Jakarta Sans titles, Inter body.
+   LAYOUT: one readable column, section links row, tables that stack on phones. */
+:root{color-scheme:light dark;--bg:light-dark(#ffffff,#0f1722);--ink:light-dark(#16212e,#e6ecf3);--mut:light-dark(#4a5868,#a9b6c4);--navy:#1A3A5C;--blue:light-dark(#2563A8,#7fb2ef);--line:light-dark(#dde3ea,#26364a);--soft:light-dark(#f3f6fa,#152131)}
+:root[data-theme=light]{color-scheme:light}:root[data-theme=dark]{color-scheme:dark}
+*{box-sizing:border-box;min-width:0}
+body{margin:0;background:var(--bg);color:var(--ink);font:16.5px/1.6 Inter,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;overflow-x:clip}
+html{scroll-padding-top:72px}
+header{background:var(--navy);color:#fff;padding:clamp(28px,5vw,56px) max(5vw,16px)}
+.hwrap,main,nav .in,footer .in{max-width:820px;margin:0 auto}
+.brand{display:flex;align-items:center;gap:14px;margin-bottom:22px}
+.brand svg{width:52px;height:52px;flex:none}
+.brand b{font:800 20px/1 "Plus Jakarta Sans",sans-serif;letter-spacing:.01em}
+h1{font:800 clamp(30px,5vw,44px)/1.08 "Plus Jakarta Sans",sans-serif;margin:0 0 12px;text-wrap:balance}
+.meta{color:#c9d8ea;margin:0;font-size:15px}
+nav{border-bottom:1px solid var(--line);background:var(--bg)}
+nav .in{display:flex;gap:6px;overflow-x:auto;padding:10px max(5vw,16px)}
+nav a{flex:none;color:var(--blue);text-decoration:none;font-size:14px;padding:8px 10px;border-radius:8px;min-height:36px}
+nav a:hover,nav a:focus-visible{background:var(--soft);outline:none}
+@media(min-width:900px){nav{position:sticky;top:0;z-index:2}}
+main{padding:clamp(24px,4vw,48px) max(5vw,16px)}
+h2{font:700 clamp(21px,2.6vw,25px)/1.25 "Plus Jakarta Sans",sans-serif;margin:44px 0 12px;color:var(--ink)}
+h2:first-child{margin-top:0}
+p,li{max-width:70ch}
+a{color:var(--blue)}
+.note{background:var(--soft);border-left:4px solid var(--blue);padding:14px 18px;border-radius:0 10px 10px 0;margin:18px 0}
+table{width:100%;border-collapse:collapse;margin:14px 0;font-size:15px}
+th,td{text-align:left;vertical-align:top;padding:10px 12px;border-bottom:1px solid var(--line)}
+th{font-weight:600;color:var(--mut);font-size:13.5px}
+footer{border-top:1px solid var(--line);color:var(--mut);font-size:14px;padding:28px max(5vw,16px) 40px}
+footer p{margin:4px 0}
+@media(max-width:600px){table{font-size:14px}.stack thead{display:none}.stack tr{display:grid;padding-block:10px;border-bottom:1px solid var(--line)}.stack td{display:flow-root;border:0;padding:3px 0;padding-inline-start:8em;text-align:start}.stack td::before{content:attr(data-l);float:inline-start;width:7.5em;margin-inline-start:-8em;white-space:normal;color:var(--mut);font-size:13px}.stack td:empty{display:none}}
+</style>
+<script>new MutationObserver(()=>{for(const c of document.querySelectorAll('.stack td:not([data-l])')){let i=0,p=c;while(p=p.previousElementSibling)i+=p.colSpan;c.dataset.l=c.closest('table').rows[0].cells[i]?.textContent||''}}).observe(document,{childList:true,subtree:true})</script>
+</head>
+<body>
+<header><div class="hwrap">
+  <div class="brand" aria-label="Alivio">
+    <svg viewBox="0 0 64 64" aria-hidden="true"><rect width="64" height="64" rx="14" fill="#0D2A5C"/><path d="M14 50 29 14h6l15 36h-8L32 25 22 50z" fill="#fff"/><path d="M24 38l7 7 15-19" fill="none" stroke="#29B6F6" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    <b>Alivio Colombia</b>
+  </div>
+  <h1>Política de Privacidad y Tratamiento de Datos Personales</h1>
+  <p class="meta">Última actualización: 22 de noviembre de 2026</p>
+</div></header>
+
+<nav aria-label="Secciones"><div class="in">
+  <a href="#responsable">Responsable</a><a href="#datos">Datos</a><a href="#finalidades">Finalidades</a><a href="#proveedores">Proveedores</a><a href="#derechos">Tus derechos</a><a href="#eliminar">Eliminar cuenta</a><a href="#contacto">Contacto</a>
+</div></nav>
+
+<main>
+<h2 id="responsable">1. Quiénes somos (Responsable del tratamiento)</h2>
+<p>Alivio Colombia ("Alivio", "la app") es una aplicación de prevención de estafas digitales desarrollada por <strong>Palomares Holding Investimentos Ltda.</strong>, sociedad constituida en Brasil, identificada con CNPJ 48.131.740/0001-93, con domicilio en Rua Augusto de Oliveira Camargo, 271, Indaiatuba – SP, CEP 13330-160, Brasil.</p>
+<p>Correo de contacto para asuntos de privacidad: <strong>soporte.aliviocolombia@gmail.com</strong></p>
+<p>Esta política se rige por la Ley Estatutaria 1581 de 2012, el Decreto 1377 de 2013 (compilado en el Decreto 1074 de 2015) y demás normas colombianas de protección de datos personales.</p>
+
+<h2 id="datos">2. Qué datos recopilamos</h2>
+<table class="stack">
+<thead><tr><th>Dato</th><th>Cuándo</th><th>Para qué</th></tr></thead>
+<tbody>
+<tr><td>Nombre, correo electrónico y foto de perfil</td><td>Al crear tu cuenta o iniciar sesión con Google</td><td>Identificarte y mantener tu cuenta</td></tr>
+<tr><td>Mensajes, enlaces, textos o imágenes que envías para análisis</td><td>Cuando usas "Verificar mensaje", Compra segura o Threat Radar</td><td>Analizar si hay señales de estafa y mostrarte el resultado</td></tr>
+<tr><td>Reportes de estafa (tipo, departamento o región, descripción)</td><td>Cuando decides reportar una estafa</td><td>Construir el mapa de riesgo y las alertas de la comunidad. Los reportes se muestran de forma agregada y con seudónimo, nunca con tu nombre</td></tr>
+<tr><td>Datos de familiares invitados (correo o identificador)</td><td>Cuando usas "Familia conectada"</td><td>Enviar invitaciones y alertas a tu grupo familiar</td></tr>
+<tr><td>Estado de tu suscripción</td><td>Cuando contratas un plan</td><td>Activar las funciones de tu plan. El pago lo procesa Google Play; Alivio no recibe ni guarda los datos de tu tarjeta</td></tr>
+<tr><td>Datos técnicos (modelo del dispositivo, versión de la app, registros de errores)</td><td>Durante el uso</td><td>Seguridad, prevención de abuso y corrección de fallas</td></tr>
+<tr><td>Preferencias guardadas en tu dispositivo</td><td>Durante el uso</td><td>Recordar tus ajustes, logros y progreso</td></tr>
+</tbody></table>
+<div class="note"><strong>No recopilamos</strong> contraseñas de bancos, códigos de verificación, claves de tarjetas ni tus contactos. <strong>Alivio nunca te pedirá esos datos.</strong> Te recomendamos no incluir datos sensibles (números de cuenta, claves, documentos) en los mensajes que envías para análisis.</div>
+<p><strong>No usamos tu ubicación GPS.</strong> La región de un reporte es la que tú eliges manualmente.</p>
+
+<h2 id="finalidades">3. Finalidades del tratamiento</h2>
+<ol>
+<li>Prestar el servicio de detección y prevención de estafas.</li>
+<li>Gestionar tu cuenta, tu plan y el soporte.</li>
+<li>Generar estadísticas agregadas y anónimas sobre estafas en Colombia (mapa de riesgo).</li>
+<li>Avisar a tu grupo familiar cuando tú lo autorices.</li>
+<li>Mejorar la seguridad de la app y prevenir el fraude y el abuso.</li>
+<li>Cumplir obligaciones legales.</li>
+</ol>
+<p>No vendemos tus datos personales.</p>
+
+<h2 id="autorizacion">4. Autorización</h2>
+<p>Al crear tu cuenta y aceptar esta política, nos das tu autorización previa, expresa e informada para tratar tus datos con las finalidades descritas. Puedes revocarla en cualquier momento (ver sección 7).</p>
+
+<h2 id="proveedores">5. Con quién compartimos tus datos</h2>
+<p>Para operar la app usamos proveedores (encargados del tratamiento) que tratan datos en nuestro nombre y bajo nuestras instrucciones:</p>
+<ul>
+<li><strong>Google LLC (Firebase y Google Cloud):</strong> autenticación y base de datos.</li>
+<li><strong>Google Play:</strong> procesamiento de pagos y suscripciones.</li>
+<li><strong>Railway Corp.:</strong> alojamiento del servidor de análisis.</li>
+<li><strong>Anthropic PBC (Claude) y/o Google LLC (Gemini):</strong> análisis automatizado, mediante inteligencia artificial, del contenido que envías para verificación.</li>
+</ul>
+<p>También podremos compartir datos cuando lo exija una autoridad competente conforme a la ley.</p>
+
+<h2 id="transferencia">6. Transferencia internacional de datos</h2>
+<p>Algunos de estos proveedores almacenan o procesan datos en servidores ubicados fuera de Colombia, principalmente en los Estados Unidos. Al aceptar esta política autorizas esta transferencia. Exigimos a nuestros proveedores medidas de seguridad adecuadas.</p>
+
+<h2 id="derechos">7. Tus derechos</h2>
+<p>Como titular de los datos tienes derecho a:</p>
+<ul>
+<li>conocer, actualizar y rectificar tus datos;</li>
+<li>solicitar prueba de la autorización que nos diste;</li>
+<li>ser informado sobre el uso que damos a tus datos;</li>
+<li>revocar la autorización y/o solicitar la supresión de tus datos;</li>
+<li>acceder gratuitamente a tus datos;</li>
+<li>presentar quejas ante la Superintendencia de Industria y Comercio (SIC).</li>
+</ul>
+<p><strong>Cómo ejercerlos:</strong> escribe a <strong>soporte.aliviocolombia@gmail.com</strong> con el asunto "Datos personales", indicando tu nombre, el correo de tu cuenta y tu solicitud. Las consultas se atenderán en un plazo máximo de 10 días hábiles y los reclamos (corrección, actualización, supresión o revocatoria) en un plazo máximo de 15 días hábiles, prorrogables en los casos previstos en la ley.</p>
+
+<h2 id="eliminar">8. Eliminación de la cuenta</h2>
+<p>Para eliminar tu cuenta y los datos asociados, escribe a <strong>soporte.aliviocolombia@gmail.com</strong> con el asunto "Eliminar cuenta", desde el correo registrado en la app. Atenderemos tu solicitud en un plazo máximo de 15 días hábiles. Algunos datos podrán conservarse por el tiempo que exija la ley. Los reportes ya incorporados al mapa de riesgo se conservan solo de forma agregada y anónima.</p>
+
+<h2 id="conservacion">9. Conservación de los datos</h2>
+<p>Conservamos tus datos mientras tu cuenta esté activa y por el tiempo necesario para cumplir las finalidades de esta política y las obligaciones legales.</p>
+
+<h2 id="seguridad">10. Seguridad</h2>
+<p>Aplicamos medidas técnicas y organizativas razonables, como conexiones cifradas (HTTPS) y control de acceso, para proteger tus datos. Ningún sistema es infalible, pero trabajamos continuamente para reducir los riesgos.</p>
+
+<h2 id="menores">11. Menores de edad</h2>
+<p>Alivio está dirigida a personas mayores de 18 años. No recopilamos de forma intencional datos de menores. Si detectamos datos de un menor, los eliminaremos.</p>
+
+<h2 id="limitacion">12. Limitación del servicio</h2>
+<p>Alivio ayuda a identificar señales de estafa, pero no garantiza la detección de todos los casos. Ante la duda, confirma siempre por el canal oficial de tu banco o empresa. Alivio no es un banco y nunca pide tus claves, códigos o contraseñas.</p>
+
+<h2 id="cambios">13. Cambios en esta política</h2>
+<p>Podemos actualizar esta política. Publicaremos la nueva versión en esta misma página con su fecha de actualización y, si los cambios son importantes, te avisaremos en la app.</p>
+
+<h2 id="contacto">14. Contacto</h2>
+<p><strong>Palomares Holding Investimentos Ltda.</strong> — CNPJ 48.131.740/0001-93<br>Rua Augusto de Oliveira Camargo, 271, Indaiatuba – SP, CEP 13330-160, Brasil<br>Correo: <strong>soporte.aliviocolombia@gmail.com</strong></p>
+</main>
+
+<footer><div class="in">
+  <p>© 2026 Palomares Holding Investimentos Ltda. — Alivio Colombia</p>
+</div></footer>
+</body>
+</html>
